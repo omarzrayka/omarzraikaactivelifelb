@@ -1,0 +1,8 @@
+2021-04-09T17:35:54+00:00 CRITICAL syntax error, unexpected 'cart_value_changed' (T_STRING), expecting ',' or ')' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce\cart\cart.php on line 107
+
+2021-04-09T17:36:42+00:00 CRITICAL syntax error, unexpected 'cart_value_changed' (T_STRING), expecting ',' or ')' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce\cart\cart.php on line 106
+
+2021-04-09T22:20:01+00:00 CRITICAL syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce\cart\cart.php on line 127
+
+2021-04-09T22:23:59+00:00 CRITICAL syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce\cart\cart.php on line 127
+

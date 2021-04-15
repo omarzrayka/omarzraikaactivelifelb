@@ -1,0 +1,111 @@
+/* 
+
+Theme Name: Info theme
+Theme URI: http://omarz.com/info-theme
+Author: Omarz
+Author URI: http://omarz.com/
+Description: the perfect theme for your blog. Ready for responsive.
+Version: 1.0.0
+Tags: blog, responsive, clean, custom admin options
+text Domain: infotheme
+
+*/
+
+
+
+.info-post-container{
+	padding:0px;
+	background:white;
+	
+}
+
+.entry-header{
+	text-align:center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+    margin-bottom:10px;
+
+}
+.entry-excerpt, p{
+	padding:5px;
+    font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	 
+}
+.entry-footer{
+	text-align:right;
+}
+.entry-title{
+	color:#337ab7;
+}
+.navbar.center  {
+    text-align: center;
+	border-radius: 0%;
+
+}
+.navbar.center  .nav {
+    display:inline-block;
+    float: none;
+	font-size: 16px;
+}
+
+.experience{ border: 0px solid ; padding: 10px; box-shadow: 5px 5px  #888888; background: white; margin:20px; } strong{ color:#337ab7; }
+.experience .entry-title{
+	text-align:left;
+	font-size:14px;
+}
+ul.products  { 
+	text-align: center;
+	padding:10px;
+	color:#337ab7;
+
+}
+.woocommerce-loop-product__title{
+	color:#337ab7;
+}
+.amount{
+	color:#337ab7;
+}
+.entry-content{
+    padding:15px;
+}
+
+
+#year{
+	background-color:#337ab7;padding:5px;color:white;
+}
+#title{
+	color:#337ab7;
+	text-align:left;
+}
+ .button, #submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .checkout-button {
+   
+    color: white;
+    background-color:#337ab7;
+	font-size:12PX;
+    
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+   
+    color:white !important;
+    background-color:#337ab7 !important;
+  
+}
+h1 {
+    text-align: center;
+	color:#337ab7;
+}
+select.orderby {
+    border-radius: 6px;
+    height: 30px;
+}
+.glyphicon-shopping-cart{
+	color:#337ab7;
+}
+input[type="text"] ,input[type="email"] ,input[type="tel"],input[type="password"]{
+ border-radius: 5px !important;
+ height:35px;
+}
+ ul li a{
+       color:white;
+     }

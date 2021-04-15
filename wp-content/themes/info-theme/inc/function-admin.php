@@ -48,6 +48,11 @@ function info_custom_settings(){
 	register_setting('info-contact-options','activate_contact');
 	add_settings_section('info-contact-section','Contact Form','info_contact_section','omarz_info_theme_contact');	
     add_settings_field('activate-form','Activate Contact Form', 'info_activate_contact', 'omarz_info_theme_contact','info-contact-section');
+    
+	//Custom CSS Options
+	register_setting('info-custom-css-options','info_css');
+	add_settings_section('info-custom-css-section','Custom CSS','info_custom_css_section_callback','omarz_info_css');	
+    add_settings_field('custom_css','Insert your custom CSS', 'info_custom_css_callback', 'omarz_info_css','info-custom-css-section');
 
 }
 
@@ -55,8 +60,18 @@ function info_custom_settings(){
 function info_post_formats_callback($input){
 	return $input;
 }
+
 function info_theme_options(){
 	echo 'Active and Deactive specific Theme Support Options';
+}
+function info_custom_css_section_callback(){
+	echo 'Customize Your Theme With Your Own CSS';
+}
+function info_custom_css_callback(){
+	$css = get_option( 'info_css' ) ;
+    $checked = (empty($css) ?  '/* info theme custom css */' : $css);
+		echo '<div  id="customCss" contentEditable>  '.$css.' </div><br>';
+	
 }
 function info_contact_section(){
 	echo 'Active and Deactive the build-in Contact Form';
@@ -72,11 +87,11 @@ function info_post_formats(){
 	echo $output;
 	
 }
+
 function info_activate_contact(){
 	$options = get_option( 'activate_contact' ) ;
     $checked = (@$options == 1 ? 'checked' : '');
 		echo '<label><input type="checkbox" name="activate_contact" id="custom_header" value="1" '.$checked.'/> Activate the Contact Form</label><br>';
-
 	
 }
 function info_sidebar_options(){
@@ -112,6 +127,157 @@ function info_theme_support_page(){
     require_once(get_template_directory().'/inc/templates/info-theme-support.php');	
 }
 function info_theme_settings_page(){
-	echo '<h1>Info Custom CSS</h1>';
+ require_once(get_template_directory().'/inc/templates/info-custom-css.php');	
+
 	
 }
+function info_add_woocommerce_support()
+ {
+add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'info_add_woocommerce_support' );
+
+function remove_woocommerce_styles($enqueue_styles){
+	//unset($enqueue_styles['woocommerce-general']);
+	//unset($enqueue_styles['woocommerce-layout']);
+	//unset($enqueue_styles['woocommerce-smallscreen']);
+	return $enqueue_styles;
+}
+add_action( 'woocommerce_enqueue_styles', 'remove_woocommerce_styles' );
+
+
+/**
+ * Footer widget one
+ */
+function custom_footer_widget_one(){
+	$args= array(
+		'id'=> 'footer_widget-col-one',
+		'name'=> __('Footer Colum One','text-domain'),
+		'description'=> __('colum_one','text-domain'),
+		'before_title'=>'<h3 class="title">',
+		'after_title'=>'</h3>',
+		'before_widget'=>'<div id="%1$s" class="widget %2s">',
+		'after_widget'=> '</div>'
+	);
+	register_sidebar($args);
+}
+add_action( 'widgets_init', 'custom_footer_widget_one' );
+
+function custom_footer_widget_two(){
+	$args= array(
+		'id'=> 'footer_widget-col-two',
+		'name'=> __('Footer Colum Two','text-domain'),
+		'description'=> __('colum_One','text-domain'),
+		'before_title'=>'<h3 class="title">',
+		'after_title'=>'</h3>',
+		'before_widget'=>'<div id="%1$s" class="widget %2s">',
+		'after_widget'=> '</div>'
+	);
+	register_sidebar($args);
+}
+add_action( 'widgets_init', 'custom_footer_widget_two');
+
+
+function custom_footer_widget_three(){
+	$args= array(
+		'id'=> 'footer_widget-col-three',
+		'name'=> __('Footer Colum Three','text-domain'),
+		'description'=> __('colum_One','text-domain'),
+		'before_title'=>'<h3 class="title">',
+		'after_title'=>'</h3>',
+		'before_widget'=>'<div id="%1$s" class="widget %2s">',
+		'after_widget'=> '</div>'
+	);
+	register_sidebar($args);
+}
+add_action( 'widgets_init', 'custom_footer_widget_three');
+
+// Minimum CSS to remove +/- default buttons on input field type number
+add_action( 'wp_head' , 'custom_quantity_fields_css' );
+function custom_quantity_fields_css(){
+    ?>
+    <style>
+    .quantity input::-webkit-outer-spin-button,
+    .quantity input::-webkit-inner-spin-button {
+        display: none;
+        margin: 0;
+		
+		
+    }
+    .quantity input.qty {
+        appearance: textfield;
+        -webkit-appearance: none;
+        -moz-appearance: textfield;
+		 border: 0px;
+		 background:#337ab7;
+		 height:30px;
+		 color:white;
+
+    }
+	 .items-count{
+		background: #759cc7;
+		border: 0px;
+		margin-bottom: -2px;
+		height:25px;
+		height:30px;
+	}
+	.glyphicon-plus, .glyphicon-minus{
+    color:white;
+	}
+    </style>
+    <?php
+}
+
+
+add_action( 'wp_footer' , 'custom_quantity_fields_script' );
+function custom_quantity_fields_script(){
+	?>
+    <script type='text/javascript'>
+    jQuery( function( $ ) {
+        if ( ! String.prototype.getDecimals ) {
+            String.prototype.getDecimals = function() {
+                var num = this,
+                    match = ('' + num).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);
+                if ( ! match ) {
+                    return 0;
+                }
+                return Math.max( 0, ( match[1] ? match[1].length : 0 ) - ( match[2] ? +match[2] : 0 ) );
+            }
+        }
+        // Quantity "plus" and "minus" buttons
+        $( document.body ).on( 'click', '.plus, .minus', function() {
+            var $qty        = $( this ).closest( '.quantity' ).find( '.qty'),
+                currentVal  = parseFloat( $qty.val() ),
+                max         = parseFloat( $qty.attr( 'max' ) ),
+                min         = parseFloat( $qty.attr( 'min' ) ),
+                step        = $qty.attr( 'step' );
+
+            // Format values
+            if ( ! currentVal || currentVal === '' || currentVal === 'NaN' ) currentVal = 0;
+            if ( max === '' || max === 'NaN' ) max = '';
+            if ( min === '' || min === 'NaN' ) min = 0;
+            if ( step === 'any' || step === '' || step === undefined || parseFloat( step ) === 'NaN' ) step = 1;
+
+            // Change the value
+            if ( $( this ).is( '.plus' ) ) {
+                if ( max && ( currentVal >= max ) ) {
+                    $qty.val( max );
+                } else {
+                    $qty.val( ( currentVal + parseFloat( step )).toFixed( step.getDecimals() ) );
+                }
+            } else {
+                if ( min && ( currentVal <= min ) ) {
+                    $qty.val( min );
+                } else if ( currentVal > 0 ) {
+                    $qty.val( ( currentVal - parseFloat( step )).toFixed( step.getDecimals() ) );
+                }
+            }
+
+            // Trigger change event
+            $qty.trigger( 'change' );
+        });
+    });
+    </script>
+    <?php
+}
+

@@ -1,0 +1,10 @@
+2021-04-10T10:35:36+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\function-admin.php on line 276
+
+2021-04-10T10:36:26+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\function-admin.php on line 276
+
+2021-04-10T12:47:49+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce\global\quantity-input.php on line 49
+
+2021-04-10T12:49:42+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce\global\quantity-input.php on line 49
+
+2021-04-10T12:50:11+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce\global\quantity-input.php on line 52
+

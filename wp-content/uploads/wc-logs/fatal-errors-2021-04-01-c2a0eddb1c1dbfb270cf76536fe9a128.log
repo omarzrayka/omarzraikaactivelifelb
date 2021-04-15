@@ -1,0 +1,102 @@
+2021-04-01T19:07:46+00:00 CRITICAL Cannot redeclare woocommerce_support() (previously declared in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\function-admin.php:138) in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 44
+
+2021-04-01T21:57:41+00:00 CRITICAL Uncaught Error: Call to undefined function woocommece_content() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php:20
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(12): get_template_part('template-parts/...', 'page')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php on line 20
+
+2021-04-01T21:59:12+00:00 CRITICAL Uncaught Error: Call to undefined function woocommece_content() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php:20
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(12): get_template_part('template-parts/...', 'page')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php on line 20
+
+2021-04-01T22:03:27+00:00 CRITICAL Uncaught Error: Call to undefined function woocommece_content() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php:20
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(12): get_template_part('template-parts/...', 'page')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php on line 20
+
+2021-04-01T22:16:44+00:00 CRITICAL Cannot redeclare woocommerce_support() (previously declared in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\function-admin.php:137) in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 44
+
+2021-04-01T22:18:17+00:00 CRITICAL Cannot redeclare woocommerce_support() (previously declared in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\function-admin.php:137) in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 44
+
+2021-04-01T22:18:48+00:00 CRITICAL Uncaught Error: Call to undefined function woocommece_content() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php:20
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(12): get_template_part('template-parts/...', 'page')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php on line 20
+
+2021-04-01T22:18:55+00:00 CRITICAL Uncaught Error: Call to undefined function woocommece_content() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php:20
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(12): get_template_part('template-parts/...', 'page')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php on line 20
+
+2021-04-01T22:19:03+00:00 CRITICAL Uncaught Error: Call to undefined function woocommece_content() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php:20
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(12): get_template_part('template-parts/...', 'page')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php on line 20
+
+2021-04-01T22:20:02+00:00 CRITICAL Uncaught Error: Call to undefined function woocommece_content() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php:20
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(12): get_template_part('template-parts/...', 'page')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php on line 20
+
+2021-04-01T22:25:12+00:00 CRITICAL Uncaught Error: Call to undefined function woocommece_content() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php:20
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(12): get_template_part('template-parts/...', 'page')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-shop.php on line 20
+

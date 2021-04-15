@@ -1,0 +1,72 @@
+2021-03-31T12:30:33+00:00 CRITICAL Uncaught Error: Call to undefined function types_reder_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php:14
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\archive-experience.php(12): get_template_part('template-parts/...', '')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php on line 14
+
+2021-03-31T12:31:07+00:00 CRITICAL Uncaught Error: Call to undefined function types_render_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php:14
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\archive-experience.php(12): get_template_part('template-parts/...', '')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php on line 14
+
+2021-03-31T12:31:42+00:00 CRITICAL Uncaught Error: Call to undefined function types_render_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php:14
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\archive-experience.php(12): get_template_part('template-parts/...', '')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php on line 14
+
+2021-03-31T12:35:22+00:00 CRITICAL Uncaught Error: Call to undefined function types_render_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php:14
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\archive-experience.php(12): get_template_part('template-parts/...', '')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php on line 14
+
+2021-03-31T12:35:54+00:00 CRITICAL Uncaught Error: Call to undefined function types_render_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php:14
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\archive-experience.php(12): get_template_part('template-parts/...', '')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php on line 14
+
+2021-03-31T12:42:38+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php:14
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\archive-experience.php(12): get_template_part('template-parts/...', '')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content-page-experience.php on line 14
+

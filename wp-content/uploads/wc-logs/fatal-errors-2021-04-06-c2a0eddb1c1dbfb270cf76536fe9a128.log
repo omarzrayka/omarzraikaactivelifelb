@@ -1,0 +1,22 @@
+2021-04-06T12:42:14+00:00 CRITICAL syntax error, unexpected '?', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\footer.php on line 24
+
+2021-04-06T12:42:33+00:00 CRITICAL syntax error, unexpected '?', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\footer.php on line 24
+
+2021-04-06T12:43:19+00:00 CRITICAL syntax error, unexpected '?', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\footer.php on line 24
+
+2021-04-06T12:44:16+00:00 CRITICAL syntax error, unexpected '?', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\footer.php on line 24
+
+2021-04-06T19:35:36+00:00 CRITICAL syntax error, unexpected '{' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 49
+
+2021-04-06T19:37:04+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 53
+
+2021-04-06T19:37:05+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 53
+
+2021-04-06T19:37:06+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 53
+
+2021-04-06T19:37:06+00:00 CRITICAL syntax error, unexpected '=', expecting ')' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 53
+
+2021-04-06T19:37:19+00:00 CRITICAL syntax error, unexpected end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\theme-support.php on line 58
+
+2021-04-06T20:49:11+00:00 CRITICAL Class Requests_Utility_CaseInsensitiveDictionary contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IteratorAggregate::getIterator) in C:\xamp1\htdocs\project1\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php on line 15
+

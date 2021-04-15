@@ -1,0 +1,105 @@
+2021-03-29T22:49:20+00:00 CRITICAL Uncaught Error: Call to undefined function post_meta() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content.php:26
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(732): require()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', false, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\index.php(12): get_template_part('template-parts/...', '')
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\template-parts\content.php on line 26
+
+2021-03-29T23:09:53+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:180
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-admin\admin-ajax.php(22): require_once('C:\\xamp1\\htdocs...')
+#5 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 180
+
+2021-03-29T23:10:14+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:180
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-admin\admin-ajax.php(22): require_once('C:\\xamp1\\htdocs...')
+#5 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 180
+
+2021-03-29T23:11:54+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:180
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-admin\admin-ajax.php(22): require_once('C:\\xamp1\\htdocs...')
+#5 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 180
+
+2021-03-29T23:11:57+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:180
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-blog-header.php(13): require_once('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#6 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 180
+
+2021-03-29T23:12:15+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:180
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-admin\admin-ajax.php(22): require_once('C:\\xamp1\\htdocs...')
+#5 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 180
+
+2021-03-29T23:13:27+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:181
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-blog-header.php(13): require_once('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#6 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 181
+
+2021-03-29T23:13:51+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:181
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-blog-header.php(13): require_once('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#6 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 181
+
+2021-03-29T23:13:55+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:181
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-admin\admin-ajax.php(22): require_once('C:\\xamp1\\htdocs...')
+#5 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 181
+
+2021-03-29T23:14:16+00:00 CRITICAL Uncaught Error: Call to undefined function add_settings_field() in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php:181
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\functions.php(8): require()
+#1 C:\xamp1\htdocs\project1\wp-settings.php(528): include('C:\\xamp1\\htdocs...')
+#2 C:\xamp1\htdocs\project1\wp-config.php(90): require_once('C:\\xamp1\\htdocs...')
+#3 C:\xamp1\htdocs\project1\wp-load.php(37): require_once('C:\\xamp1\\htdocs...')
+#4 C:\xamp1\htdocs\project1\wp-admin\admin-ajax.php(22): require_once('C:\\xamp1\\htdocs...')
+#5 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\inc\custom-post-type.php on line 181
+

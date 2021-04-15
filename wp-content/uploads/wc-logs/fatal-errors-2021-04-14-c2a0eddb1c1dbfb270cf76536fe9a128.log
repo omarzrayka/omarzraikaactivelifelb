@@ -1,0 +1,28 @@
+2021-04-14T15:22:25+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\header.php:107
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(730): require_once()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', true, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\woocommerce.php(1): get_header()
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\header.php on line 107
+
+2021-04-14T15:22:25+00:00 CRITICAL Uncaught Error: Class 'WP_Bootstrap_Navwalker' not found in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\header.php:107
+Stack trace:
+#0 C:\xamp1\htdocs\project1\wp-includes\template.php(730): require_once()
+#1 C:\xamp1\htdocs\project1\wp-includes\template.php(676): load_template('C:\\xamp1\\htdocs...', true, Array)
+#2 C:\xamp1\htdocs\project1\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xamp1\htdocs\project1\wp-content\themes\info-theme\index.php(1): get_header()
+#4 C:\xamp1\htdocs\project1\wp-includes\template-loader.php(106): include('C:\\xamp1\\htdocs...')
+#5 C:\xamp1\htdocs\project1\wp-blog-header.php(19): require_once('C:\\xamp1\\htdocs...')
+#6 C:\xamp1\htdocs\project1\index.php(17): require('C:\\xamp1\\htdocs...')
+#7 {main}
+  thrown in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\header.php on line 107
+
+2021-04-14T15:34:32+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\header.php on line 66
+
+2021-04-14T15:38:29+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in C:\xamp1\htdocs\project1\wp-content\themes\info-theme\header.php on line 84
+
