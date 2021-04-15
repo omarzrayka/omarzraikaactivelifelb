@@ -6,49 +6,39 @@
 */
 
 ;?>
-<footer class="site-footer" id="footer">
+ <footer class="bg-primary text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+      
+        <?php dynamic_sidebar('footer_widget-col-one');?>
+      </div>
+      <!--Grid column-->
 
-    <div class="bg-primary text-white pt-5 pb-5">
-          <div class="container">
-              <div class="row" >
-            <div class="col-md-4">
-            <?php dynamic_sidebar('footer_widget-col-one');?>
-            </div>
-            <div class="col-md-4">
-            <?php dynamic_sidebar('footer_widget-col-two');?>
-            </div>
-            <div class="col-md-4 ms-auto">
-             <?php dynamic_sidebar('footer_widget-col-three');?>
-            </div>
-                 </div>
-          </div>
-   </div>
-    
-   
-          
-    <div clas="container pt-2 pb-2">
-    <div class="row d-flex align-items-center" >
-    <div class="col-md-12">
-    <p>&copy<?php bloginfo('name');?><?php echo date('Y');?> / created by <a href="">omarz</a></p>
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+       
+        <?php dynamic_sidebar('footer_widget-col-two');?>
+      </div>
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+       
+        <?php dynamic_sidebar('footer_widget-col-three');?>
+      </div>
+      <!--Grid column-->
     </div>
-    </div>
-    </div>
-   <!--div class="row" >
-	     <div class="col-xs-12" >
-         <div class="row leg-room">
-         <div class="container" >
-    <div class="col-md-12 text-center" id="footer">
-        <h1 class="text-uppercase">Best Store</h1>
-        <p class="monospaced">
-            &copy;2021 Best Store Company Inc. 
-            <span class="text-uppercase">All Rights Reserved</span></p>
-    </div>
-    </div>
-        </div>
-        </div> 
- </div---><!-- end container -->
- </footer>
- 
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <p>&copy<?php bloginfo('name');?><?php echo date('Y');?> / created by <a href="">omarz</a></p>
+  </div>
+  <!-- Copyright -->
+</footer>
 
 <?php wp_footer(); ?>
 
