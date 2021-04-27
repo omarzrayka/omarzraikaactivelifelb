@@ -23,8 +23,8 @@ function info_load_admin_scripts( $hook){
 	
 	}elseif('info_page_omarz_info_css'== $hook){
 	wp_enqueue_style('ace', get_template_directory_uri().'//css/info.ace.css', array(),'1.0.0','all');	    
-	wp_enqueue_script('ace', get_template_directory_uri().'//js/ace/ace.js', array('jquey'),'1.2.1',true);
-    wp_enqueue_script('info-custom-css-script', get_template_directory_uri().'/js/info.custom_css.js', array('jquey'),'1.0.0',true);
+	wp_enqueue_script('ace', get_template_directory_uri().'//js/ace/ace.js', array('jquey'),'1.4.1',true);
+  wp_enqueue_script('info-custom-css-script', get_template_directory_uri().'//js/info.custom_css.js', array('jquey'),'1.0.0',true);
     
 		
 	
@@ -46,8 +46,8 @@ function info_load_scripts(){
         }
 
 		wp_enqueue_style('bootstrap', get_template_directory_uri().'//css/bootstrap.min.css', array(),'3.4.1','all');	    
-        wp_enqueue_style('css', get_template_directory_uri().'//styles.css', array(),'1.0.0','all');
-	    wp_enqueue_style('woocommerces', get_template_directory_uri().'//css/woocommerce/woocommerce.css', array(),'1.0.0','all');
+        wp_enqueue_style('css', get_template_directory_uri().'//style.css', array(),'1.0.0','all');
+	    wp_enqueue_style('woocommerces', get_template_directory_uri().'//css/woocommerce/woocommerce.css', array(),'5.1.0','all');
 
       //  wp_deregister_script('jquey');
 	  //  wp_register_script('jquery', get_template_directory_uri().'//js/jquery.min.js', array('jquey'),'1.9.1',true);

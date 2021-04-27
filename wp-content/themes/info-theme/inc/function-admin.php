@@ -50,7 +50,7 @@ function info_custom_settings(){
     add_settings_field('activate-form','Activate Contact Form', 'info_activate_contact', 'omarz_info_theme_contact','info-contact-section');
     
 	//Custom CSS Options
-	register_setting('info-custom-css-options','info_css');
+	register_setting('info-custom-css-options','info_css', 'info_sanitize_custom_css');
 	add_settings_section('info-custom-css-section','Custom CSS','info_custom_css_section_callback','omarz_info_css');	
     add_settings_field('custom_css','Insert your custom CSS', 'info_custom_css_callback', 'omarz_info_css','info-custom-css-section');
 
@@ -69,8 +69,8 @@ function info_custom_css_section_callback(){
 }
 function info_custom_css_callback(){
 	$css = get_option( 'info_css' ) ;
-    $checked = (empty($css) ?  '/* info theme custom css */' : $css);
-		echo '<div  id="customCss" contentEditable>  '.$css.' </div><br>';
+    $css = (empty($css) ?  '/* info theme custom css */' : $css);
+		echo '<div  id="customCss" contentEditable> '.$css.'</div><textarea id="info_css" name="info_css" style="display:none;visibility:hidden">'.$css.'</textarea><br>';
 	
 }
 function info_contact_section(){
@@ -112,6 +112,10 @@ function info_sidebar_name(){
 function info_sidebar_description(){
 	$description = esc_attr( get_option('description') );
 	echo '<input type="text" name="description"  value="'.$description.'" placeholder="Description" />';
+}
+function info_sanitize_custom_css($input){
+	$output = esc_textarea($input);
+	return $output;
 }
 //template submenu functions
 function info_theme_create_page(){
@@ -280,4 +284,19 @@ function custom_quantity_fields_script(){
     </script>
     <?php
 }
+
+function info_widget_setup(){
+	$args= array(
+		'id'=> 'sidebar-1',
+		'name'=> 'Sidebar',
+		'class'=> 'custom',
+		'description'=> 'Standard Sidebar',
+		'before_title'=>'<h3 class="title">',
+		'after_title'=>'</h3>',
+		'before_widget'=>'<div id="%1$s" class="widget %2s">',
+		'after_widget'=> '</div>'
+	);
+	register_sidebar($args);
+}
+add_action( 'widgets_init', 'info_widget_setup');
 
